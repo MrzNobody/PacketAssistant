@@ -106,12 +106,13 @@ export const DropZone: React.FC<DropZoneProps> = ({ onFileSelect }) => {
                     Select File
                   </button>
                 </div>
-                <div className="flex items-center justify-center space-x-3 mt-4">
-                   <p className="text-[10px] font-bold text-slate-600 uppercase tracking-[0.2em] mr-2">Formats:</p>
-                   <span className="px-3 py-1 bg-white-5 rounded-full text-[10px] font-bold text-blue-400 uppercase tracking-widest border border-blue-500/20">.pcap</span>
-                   <span className="px-3 py-1 bg-white-5 rounded-full text-[10px] font-bold text-blue-400 uppercase tracking-widest border border-blue-500/20">.pcapng</span>
-                   <span className="px-3 py-1 bg-white-5 rounded-full text-[10px] font-bold text-blue-400 uppercase tracking-widest border border-blue-500/20">.cap</span>
+                <div className="flex items-center justify-center space-x-4 mt-6">
+                   <p className="text-xs font-bold text-slate-500 uppercase tracking-widest mr-2">Supported Files:</p>
+                   <span className="px-4 py-1.5 bg-blue-500/10 rounded-xl text-xs font-bold text-blue-400 border border-blue-500/30">.pcap</span>
+                   <span className="px-4 py-1.5 bg-blue-500/10 rounded-xl text-xs font-bold text-blue-400 border border-blue-500/30">.pcapng</span>
+                   <span className="px-4 py-1.5 bg-blue-500/10 rounded-xl text-xs font-bold text-blue-400 border border-blue-500/30">.cap</span>
                 </div>
+
 
               </div>
             </motion.div>
