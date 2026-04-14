@@ -212,7 +212,17 @@ function App() {
             </div>
           </nav>
           
+          <div className="p-4 mx-4 mb-4 glass rounded-2xl border border-blue-500/20 bg-blue-500/5">
+            <p className="text-[10px] font-bold text-blue-400 uppercase tracking-widest mb-2 flex items-center">
+              <Zap size={10} className="mr-1" /> Guide
+            </p>
+            <p className="text-xs text-slate-300 leading-relaxed m-0">
+              Drag and drop <b>.pcap</b> or <b>.cap</b> files anywhere to begin analysis.
+            </p>
+          </div>
+
           <div className="p-4 border-t border-white-10">
+
             <NavItem icon={<Settings size={20} />} label="Settings" />
           </div>
         </aside>
